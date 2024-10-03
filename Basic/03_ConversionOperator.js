@@ -30,3 +30,18 @@ console.log("----------------");
 
 let flag = 1500;
 console.log(Boolean(flag));
+
+console.log();
+console.log("************* Operation **************");
+
+// ************* Operation **************
+let value = 3;
+let negValue = -value;
+console.log(negValue);
+
+console.log("----------------");
+
+console.log("1"+2); // 12
+console.log(1+"2"); // 12
+console.log("1"+2+2); // 122
+console.log(1+2+"2"); // 32
