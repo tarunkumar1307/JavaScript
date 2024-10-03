@@ -36,3 +36,29 @@ console.table(typeof(num)); // bigint
 console.log(typeof(friends)); // object
 console.log(typeof(myObj)); // object
 console.log(typeof(myFunction)); // function
+
+// -----------------------------------------------------
+
+/*
+Stack (Primitive), Heap (Non Primitive)
+*/
+
+// Stack - by value (copy)
+let name = "Tarun";
+let anotherName = name;
+anotherName = "Aadi";
+
+console.log(name);
+console.log(anotherName);
+
+// Heap - by refernce
+let userOne = {
+    email : "user@gmail.com",
+    upi : "user@axl",
+}
+
+let userTwo = userOne;
+
+userTwo.email = "aadi@outlook.com";
+console.log(userOne);
+console.log(userTwo);
