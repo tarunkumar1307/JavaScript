@@ -22,3 +22,31 @@ function loginUser(name){ // name = "Nargis" (default value)
 
 // console.log(loginUser("Aadi"));
 console.log(loginUser());
+
+console.log("-------------------------------------------------------");
+
+function calculateCartPrice(...num1){ // it is spread operator, but here it is called rest operator
+    return num1;
+}
+
+console.log(calculateCartPrice(200, 400, 500));
+
+console.log("-------------------------------------------------------");
+
+const user = {
+    name : "aadi",
+    price : 99,
+}
+
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.name} and price is ${anyObject.price}`);
+}
+handleObject(user);
+
+console.log("-------------------------------------------------------");
+
+const myArr = [100, 200, 300];
+function returnValue(getArray){
+    return getArray[1];
+}
+console.log(returnValue(myArr));
