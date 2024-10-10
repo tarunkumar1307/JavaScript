@@ -80,7 +80,3 @@ const myCoding = [
         langaugeFile : "py",
     },
 ];
-
-myCoding.forEach(() => {
-
-});
